@@ -1,0 +1,10 @@
+[package]
+name = "noir_docs_generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syn = { version = "1.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+tempfile = "3.2"
+regex = "1.5"
